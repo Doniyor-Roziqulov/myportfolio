@@ -1,0 +1,15 @@
+.portfolio {
+    background-color: color-mix(in srgb, #149ddd, transparent 80%);
+}
+
+.port-link {
+    overflow: hidden;
+}
+
+.portfolio-img {
+    transition: all 1.1s;
+}
+
+.port-link:hover .portfolio-img {
+    transform: scale(1.2);
+}

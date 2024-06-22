@@ -1,0 +1,62 @@
+.about-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.about {
+  padding-bottom: 60px;
+}
+
+.section-title {
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.about-title::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #149ddd;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.parts-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.part-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.parts-bold {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.parts-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 21px;
+  position: relative;
+}
+
+.parts-item::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-image: url(../../images/chevron-double-right.svg);
+  position: absolute;
+  left: 0;
+}
+
+.marks {
+  color: cornflowerblue;
+}
